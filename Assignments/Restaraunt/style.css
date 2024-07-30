@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    font-size:25px;
+}
+.menu{
+    width: 40%;
+    display: flex;
+    margin-right: 20px;
+    font-size: 28px;
+    justify-content: space-around;
+}
+.menu a{
+    text-decoration: none;  
+    color: red;
+}
+.menu i{
+    font-size: 25px;
+}
+
+#home{
+    background-image: url(./images/home2.png);
+    /* background-position:rght; */
+    background-size: cover;
+    font-size: 50px;
+    font-weight:bolder;
+    height: 730px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: start;
+}
+#home #message{
+    margin-top: 130px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+#home #btn button{
+    margin-left: 100px;
+    /* padding: 20px; */
+    font-size: large;
+    width: 200px;
+    height: 40px;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+    font-weight: 800;
+}
+
+#home #btn button:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: red;
+}
+
+
+#menus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(93, 90, 90);
+}
+.menutitle{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.menucontent{
+    height: 540px;
+    width: 100%;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.burger,.rolls,.bucket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray ;
+}
+.menutitle{
+    color: aliceblue;
+}
+#title{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+.burgermenu,.rollmenu,.bucketmenu{
+    /* height: 150px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    justify-content: space-between;
+}
+.burger:hover,.rolls:hover,.bucket:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+    z-index: 0;
+}
+.strike{
+    color: brown;
+    margin-right: 10px;
+}
+.price{
+    color: rgb(0, 136, 255);
+}
+
+#contact{
+    height: 450px;
+    display: flex;
+    
+}
+.form{
+    width: 33%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.form h2{
+    font-weight: 900;
+    font-size: 35px;
+}
+.form input{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;   
+    text-decoration: none;
+    outline: none;
+}
+.form button{
+    color: red;
+    width: 150px;
+    font-size: 15px;
+    height: 40px;
+    font-weight: 800;
+}
+.contact{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.contactcontent{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+.contact a{
+    margin-left: 15px;
+    text-decoration: none;
+    width: 120px;
+    height: 38px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+.location{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 170);
+}
+
+.location h1{
+    color: red;
+    font-size: 35px;
+    font-weight: 800;
+}
+.location h4{
+    color: gray;
+}
+.locationdetail1{
+    display: flex;
+    gap: 80px;
+}
+.locationdetail2{
+    display: flex;
+    gap: 80px;
+}
+footer{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 150px;
+}
